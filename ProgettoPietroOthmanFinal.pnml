@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pnml>
+  <net type="http://www.yasper.org/specs/epnml-1.1" id="do1">
+    <toolspecific tool="Yasper" version="1.2.4020.34351">
+      <roles xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+        <role id="rl2">
+          <name>
+            <text>1-Sales </text>
+          </name>
+          <actor />
+          <actor />
+        </role>
+        <role id="rl3">
+          <name>
+            <text>2-Airline Rep</text>
+          </name>
+          <actor />
+          <actor />
+        </role>
+        <role id="rl5">
+          <name>
+            <text>4-Luggage</text>
+          </name>
+          <actor />
+          <actor />
+        </role>
+        <role id="rl6">
+          <name>
+            <text>7-Gate Security</text>
+          </name>
+          <actor />
+        </role>
+        <role id="rl1">
+          <name>
+            <text>5-X Ray Machione</text>
+          </name>
+          <actor />
+        </role>
+        <role id="rl8">
+          <name>
+            <text>6-X Ray Security</text>
+          </name>
+          <actor />
+        </role>
+      </roles>
+    </toolspecific>
+    <place id="pl8">
+      <name>
+        <text>P2</text>
+      </name>
+      <graphics>
+        <position x="363" y="264" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl29">
+      <name>
+        <text>P13</text>
+      </name>
+      <graphics>
+        <position x="1264" y="330" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl1">
+      <name>
+        <text>P12(Clear Go to gate)</text>
+      </name>
+      <graphics>
+        <position x="1264" y="198" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl5">
+      <name>
+        <text>P5(Problem Check in)</text>
+      </name>
+      <graphics>
+        <position x="561" y="528" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl4">
+      <name>
+        <text>P16</text>
+      </name>
+      <graphics>
+        <position x="1650" y="264" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl6">
+      <name>
+        <text>P4(Passed Check in )</text>
+      </name>
+      <graphics>
+        <position x="627" y="263" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl9">
+      <name>
+        <text>P6</text>
+      </name>
+      <graphics>
+        <position x="759" y="329" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl13">
+      <name>
+        <text>P3</text>
+      </name>
+      <graphics>
+        <position x="495" y="264" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl14">
+      <name>
+        <text>P1</text>
+      </name>
+      <graphics>
+        <position x="197" y="178" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl16">
+      <name>
+        <text>P</text>
+      </name>
+      <graphics>
+        <position x="106" y="262" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl11">
+      <name>
+        <text>P15</text>
+      </name>
+      <graphics>
+        <position x="1518" y="264" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl12">
+      <name>
+        <text>P7</text>
+      </name>
+      <graphics>
+        <position x="759" y="196" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl17">
+      <name>
+        <text>P11</text>
+      </name>
+      <graphics>
+        <position x="898" y="98" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl18">
+      <name>
+        <text>P8</text>
+      </name>
+      <graphics>
+        <position x="963" y="197" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl19">
+      <name>
+        <text>P10(Metal Check again)</text>
+      </name>
+      <graphics>
+        <position x="1161" y="98" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl20">
+      <name>
+        <text>P9</text>
+      </name>
+      <graphics>
+        <position x="1095" y="197" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <place id="pl2">
+      <name>
+        <text>P14</text>
+      </name>
+      <graphics>
+        <position x="1353" y="264" />
+        <dimension x="20" y="20" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <tokenCaseSensitive xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </tokenCaseSensitive>
+      </toolspecific>
+    </place>
+    <transition id="tr3">
+      <graphics>
+        <position x="35" y="264" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <emitor xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </emitor>
+        <processingTime xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <mean>
+            <text>80</text>
+          </mean>
+          <deviation>
+            <text>80</text>
+          </deviation>
+        </processingTime>
+      </toolspecific>
+    </transition>
+    <transition id="tr5">
+      <graphics>
+        <position x="195" y="264" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <type>
+        <text>XOR</text>
+      </type>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <connectionWeights xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <connectionWeight connection="pl8">
+            <weight>
+              <text>85</text>
+            </weight>
+          </connectionWeight>
+          <connectionWeight connection="pl14">
+            <weight>
+              <text>15</text>
+            </weight>
+          </connectionWeight>
+        </connectionWeights>
+      </toolspecific>
+    </transition>
+    <transition id="tr15">
+      <name>
+        <text>1-Buy Ticket</text>
+      </name>
+      <graphics>
+        <position x="286" y="180" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <roles xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <role ref="rl2" />
+        </roles>
+        <processingTime xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <mean>
+            <text>300</text>
+          </mean>
+          <deviation>
+            <text>300</text>
+          </deviation>
+        </processingTime>
+      </toolspecific>
+    </transition>
+    <transition id="tr29">
+      <graphics>
+        <position x="1716" y="264" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <collector xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <text>true</text>
+        </collector>
+      </toolspecific>
+    </transition>
+    <transition id="tr1">
+      <graphics>
+        <position x="561" y="264" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <type>
+        <text>XOR</text>
+      </type>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <connectionWeights xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <connectionWeight connection="pl5">
+            <weight>
+              <text>5</text>
+            </weight>
+          </connectionWeight>
+          <connectionWeight connection="pl6">
+            <weight>
+              <text>95</text>
+            </weight>
+          </connectionWeight>
+        </connectionWeights>
+      </toolspecific>
+    </transition>
+    <transition id="tr2">
+      <graphics>
+        <position x="1584" y="264" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <type>
+        <text>XOR</text>
+      </type>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <connectionWeights xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec" />
+      </toolspecific>
+    </transition>
+    <transition id="tr4">
+      <name>
+        <text>3.1-Proceed </text>
+      </name>
+      <graphics>
+        <position x="693" y="263" />
+        <dimension x="32" y="32" />
+      </graphics>
+    </transition>
+    <transition id="tr7">
+      <name>
+        <text>6-Inspection</text>
+      </name>
+      <graphics>
+        <position x="1029" y="98" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <roles xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <role ref="rl8" />
+        </roles>
+        <processingTime xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <mean>
+            <text>120</text>
+          </mean>
+          <deviation>
+            <text>120</text>
+          </deviation>
+        </processingTime>
+      </toolspecific>
+    </transition>
+    <transition id="tr8">
+      <name>
+        <text>4-Luggage X-Ray</text>
+      </name>
+      <graphics>
+        <position x="930" y="329" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <roles xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <role ref="rl5" />
+        </roles>
+        <processingTime xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <mean>
+            <text>40</text>
+          </mean>
+          <deviation>
+            <text>40</text>
+          </deviation>
+        </processingTime>
+      </toolspecific>
+    </transition>
+    <transition id="tr9">
+      <name>
+        <text>2-Check in</text>
+      </name>
+      <graphics>
+        <position x="435" y="263" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <roles xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <role ref="rl3" />
+        </roles>
+        <processingTime xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <mean>
+            <text>60</text>
+          </mean>
+          <deviation>
+            <text>60</text>
+          </deviation>
+        </processingTime>
+      </toolspecific>
+    </transition>
+    <transition id="tr10">
+      <name>
+        <text>7-Proceed to Airplane</text>
+      </name>
+      <graphics>
+        <position x="1452" y="264" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <roles xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <role ref="rl6" />
+        </roles>
+        <processingTime xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <mean>
+            <text>10</text>
+          </mean>
+          <deviation>
+            <text>10</text>
+          </deviation>
+        </processingTime>
+      </toolspecific>
+    </transition>
+    <transition id="tr11">
+      <graphics>
+        <position x="897" y="197" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <type>
+        <text>XOR</text>
+      </type>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <connectionWeights xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec" />
+      </toolspecific>
+    </transition>
+    <transition id="tr13">
+      <name>
+        <text>5-X-RAY Security</text>
+      </name>
+      <graphics>
+        <position x="1029" y="197" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <roles xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <role ref="rl1" />
+        </roles>
+        <processingTime xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <mean>
+            <text>20</text>
+          </mean>
+          <deviation>
+            <text>20</text>
+          </deviation>
+        </processingTime>
+      </toolspecific>
+    </transition>
+    <transition id="tr14">
+      <graphics>
+        <position x="1161" y="197" />
+        <dimension x="32" y="32" />
+      </graphics>
+      <type>
+        <text>XOR</text>
+      </type>
+      <toolspecific tool="Yasper" version="1.2.4020.34351">
+        <connectionWeights xmlns="http://www.yasper.org/specs/epnml-1.1/toolspec">
+          <connectionWeight connection="pl1">
+            <weight>
+              <text>85</text>
+            </weight>
+          </connectionWeight>
+          <connectionWeight connection="pl19">
+            <weight>
+              <text>15</text>
+            </weight>
+          </connectionWeight>
+        </connectionWeights>
+      </toolspecific>
+    </transition>
+    <transition id="tr6">
+      <name>
+        <text>3.2 -Proceed </text>
+      </name>
+      <graphics>
+        <position x="1287" y="264" />
+        <dimension x="32" y="32" />
+      </graphics>
+    </transition>
+    <arc id="a2" source="tr5" target="pl8" />
+    <arc id="a4" source="tr1" target="pl5" />
+    <arc id="a5" source="tr2" target="pl4" />
+    <arc id="a17" source="pl4" target="tr29" />
+    <arc id="a18" source="tr1" target="pl6" />
+    <arc id="a22" source="pl6" target="tr4" />
+    <arc id="a23" source="tr4" target="pl9" />
+    <arc id="a24" source="pl9" target="tr8" />
+    <arc id="a26" source="pl8" target="tr9" />
+    <arc id="a27" source="tr9" target="pl13" />
+    <arc id="a28" source="pl13" target="tr1" />
+    <arc id="a29" source="pl16" target="tr5" />
+    <arc id="a30" source="tr8" target="pl29" />
+    <arc id="a31" source="tr3" target="pl16" />
+    <arc id="a32" source="tr5" target="pl14" />
+    <arc id="a33" source="pl14" target="tr15" />
+    <arc id="a36" source="tr15" target="pl8" />
+    <arc id="a38" source="tr10" target="pl11" />
+    <arc id="a42" source="tr11" target="pl18" />
+    <arc id="a43" source="pl18" target="tr13" />
+    <arc id="a44" source="tr13" target="pl20" />
+    <arc id="a45" source="pl20" target="tr14" />
+    <arc id="a46" source="tr14" target="pl1" />
+    <arc id="a47" source="tr14" target="pl19" />
+    <arc id="a48" source="pl19" target="tr7" />
+    <arc id="a50" source="tr7" target="pl17" />
+    <arc id="a51" source="pl17" target="tr11" />
+    <arc id="a52" source="tr4" target="pl12" />
+    <arc id="a53" source="pl12" target="tr11" />
+    <arc id="a54" source="pl11" target="tr2" />
+    <arc id="a55" source="pl29" target="tr6" />
+    <arc id="a56" source="pl1" target="tr6" />
+    <arc id="a57" source="pl2" target="tr10" />
+    <arc id="a58" source="tr6" target="pl2" />
+    <arc id="a59" source="pl5" target="tr2">
+      <graphics>
+        <position x="1586" y="518" />
+      </graphics>
+    </arc>
+  </net>
+</pnml>
